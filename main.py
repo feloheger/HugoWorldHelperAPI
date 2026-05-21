@@ -33,7 +33,7 @@ class ClaimIn(BaseModel):
  
 @app.get("/")
 def root():
-    return {"status": "ok"}
+    return {"statusnew": "ok"}
  
  
 @app.post("/payment")
